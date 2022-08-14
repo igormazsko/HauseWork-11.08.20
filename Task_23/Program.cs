@@ -6,7 +6,7 @@ double n = Convert.ToDouble(ReadLine());
 double i = 1;
 while (i <= n)
 {
-    WriteLine(i*i*i);
+    Write($"{i*i*i} ");
     i++;
 }
 WriteLine();
