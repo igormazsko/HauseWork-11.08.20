@@ -16,5 +16,4 @@ int y2 = int.Parse(ReadLine());
 Write("Z2 = ");
 int z2 = int.Parse(ReadLine());
 double L = Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)+(z1-z2)*(z1-z2));
-Write("Расстояние между точками = ");
-WriteLine(L);
+WriteLine($"Расстояние между точками = {L:f2}");
